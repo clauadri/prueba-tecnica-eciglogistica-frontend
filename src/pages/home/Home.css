@@ -1,0 +1,38 @@
+.title-logout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(240, 239, 239, 0.897);
+}
+.title {
+  display: flex;
+  padding-left: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.title h1 {
+  border-bottom: 1px solid black;
+}
+.logout {
+  display: flex;
+  justify-content: end;
+  padding-right: 50px;
+}
+.user-btn {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background: none;
+  border: solid 1px grey;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: gray;
+  color: #ffff;
+  margin: 5px;
+}
+.user-btn:hover {
+  background: none;
+  border: solid 1px #7e9baa;
+  background-color: #7e9baa;
+  color: #ffff;
+}

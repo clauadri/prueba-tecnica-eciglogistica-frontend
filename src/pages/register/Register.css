@@ -1,0 +1,62 @@
+.register-wrapper {
+  margin: 2em auto;
+  padding: 1em 3em;
+  max-width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 11px 17px 5px rgba(128, 121, 121, 0.33);
+  background-color: rgba(240, 239, 239, 0.897);
+  margin-bottom: 20px;
+}
+.register-wrapper h2 {
+  padding: 10px;
+}
+
+.register {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register-wrapper div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.register-wrapper input {
+  background: none;
+  border: solid 1px rgb(197, 200, 202);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.register-wrapper button {
+  background: none;
+  border: solid 1px grey;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  background-color: gray;
+  color: #ffff;
+}
+
+.register-wrapper button:hover {
+  background: none;
+  border: solid 1px #054368;
+  background-color: #054368;
+  color: #ffff;
+}
+
+.register-wrapper a {
+  min-width: 200px;
+  padding: 10px 0;
+  color: dimgray;
+}
+.register-wrapper a:hover {
+  color: #054368;
+}
